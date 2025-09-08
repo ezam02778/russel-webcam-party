@@ -1,0 +1,8 @@
+{
+  "name": "Webcam Party",
+  "short_name": "CamParty",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#111111"
+}
