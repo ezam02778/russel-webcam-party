@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Webcam Party — Realtime Capture</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <main id="app">
+    <h1>📸 Webcam Party</h1>
+
+    <div class="viewer">
+      <video id="video" playsinline autoplay muted style="display:none"></video>
+      <canvas id="canvas"></canvas>
+    </div>
+
+    <div class="controls">
+      <button id="btnSwitch">🔁 Switch Camera</button>
+      <button id="btnEffect">✨ Toggle Effect</button>
+      <button id="btnFace">🕶️ Toggle Face Overlay</button>
+      <button id="btnSnap">📷 Snapshot</button>
+      <button id="btnRecord">⏺️ Start Record</button>
+    </div>
+
+    <footer>
+      <small>Buka via HTTPS (GitHub Pages). Tested on iPhone Safari.</small>
+    </footer>
+  </main>
+
+  <script src="https://unpkg.com/three@0.153.0/build/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
